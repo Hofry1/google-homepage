@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+img {
+    position: relative;
+    bottom: 45%;
+    left: 45%;
+    right: 0;
+}
+
+form {
+    position: relative;
+    top: 45%;
+    left: 40%;
+    width: 500px;
+}
+
+.search {
+    border-radius: 25px;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.search-button {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    width: 100px;
+    height: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0;
+}
